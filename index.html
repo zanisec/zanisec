@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="es">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <title>Aprender con videojuegos</title>
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-scholar.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+
+ <script>
+
+      // Obtener el parámetro de la URL
+    const urlParams = new URLSearchParams(window.location.search);
+    const ignoreWarning = urlParams.get('ignoreWarning');
+
+    // Verificar si el parámetro está presente y es igual a "true"
+    if (ignoreWarning === 'true') {
+        // Realizar la redirección si es necesario
+        // Agrega aquí tu lógica de redirección
+        // window.location.href = 'tu_otra_pagina.html';
+
+        }
+    else
+        window.onload = function () {
+            var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+
+            if (isMobile) {
+                window.location.href = 'advertencia.html';
+            }
+        };
+    </script>
+
+<style>
+        body {
+            text-align: center;
+        }
+
+        #contenedor-video {
+            width: 50%; /* ajusta el ancho según tus necesidades */
+            margin: 0 auto; /* centrar horizontalmente */
+        }
+
+        video {
+            width: 60%; /* para que ocupe todo el ancho del contenedor */
+            height: auto; /* para mantener la proporción del video */
+        }
+    </style>
+
+
+
+  </head>
+
+<body>
+
+
+  <!-- ***** Preloader Start ***** -->
+  <div id="js-preloader" class="js-preloader">
+    <div class="preloader-inner">
+      <span class="dot"></span>
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+  <!-- ***** Preloader End ***** -->
+
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <nav class="main-nav">
+                    <!-- ***** Logo Start ***** -->
+                    <a href="index.html" class="logo">
+                        <h1>Aprender con videojuegos</h1>
+                    </a>
+                    <ul class="nav">
+                      <li class="scroll-to-section"><a href="#top" class="active">Inicio</a></li>
+                      <li class="scroll-to-section"><a href="#services">Consejos</a></li>
+                      <li class="scroll-to-section"><a href="#courses">Vídeo</a></li>
+                      <li class="scroll-to-section"><a href="#team">Equipo</a></li>
+                      <li class="scroll-to-section"><a href="#events">Videojuegos</a></li>
+                  </ul>   
+                    <a class='menu-trigger'>
+                        <span>Menu</span>
+                    </a>
+                    <!-- ***** Menu End ***** -->
+                </nav>
+            </div>
+        </div>
+    </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+
+  <div class="main-banner" id="top">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="owl-carousel owl-banner">
+            <div class="item item-1">
+              <div class="header-text">
+                <span class="category">Inicio</span>
+                <h2>¡Aprender con Videojuegos!</h2>
+                <p>¡Descubre el Poder de Aprender con Videojuegos!</p>
+                <div class="buttons">
+                  <div class="main-button">
+                    <li class="scroll-to-section"><a href="#services">¡Vamos!</a></li>
+                  </div>
+                  <div class="icon-button">
+                    <a href="#courses"> <li class="scroll-to-section"><i class="fa fa-play"></i> Míralo aquí</a></li>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item item-2">
+              <div class="header-text">
+                <span class="category">¿Qué es?</span>
+                <h2>¿Qué es el aprendizaje con videojuegos?</h2>
+                <p>El aprendizaje con videojuegos es una forma divertida y efectiva de adquirir conocimientos y habilidades a través de la experiencia de juego. Combina la emoción de los videojuegos con el aprendizaje significativo. Creando un entorno de enseñanza único.</p>
+                <div class="buttons">
+                  <div class="main-button">
+                    <li class="scroll-to-section"><a href="#team">¡Vamos!</a></li>
+                  </div>
+                  <div class="icon-button">
+                    <a href="#courses"> <li class="scroll-to-section"><i class="fa fa-play"></i> Míralo aquí</a></li>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item item-3">
+              <div class="header-text">
+                <span class="category">Tú también</span>
+                <h2>¡Únete a la revolución educativa!</h2>
+                <p> Descubre el potencial ilimitado de aprender jugando videojuegos. Forma parte de una forma emocionante y efectiva de adquirir conocimientos.</p>
+                <div class="buttons">
+                  <div class="main-button">
+                    <li class="scroll-to-section"><a href="#events">¡Vamos!</a></li>
+                  </div>
+                  <div class="icon-button">
+                    <a href="#courses"> <li class="scroll-to-section"><i class="fa fa-play"></i> Míralo aquí</a></li>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="services section" id="services">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="service-item">
+            <div class="icon">
+              <img src="assets/images/service-01.png" alt="online degrees">
+            </div>
+            <div class="main-content">
+              <h4>texto texto</h4>
+              <p>texto textotexto textotexto textotexto textotexto textotexto textotexto textotexto texto</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="service-item">
+            <div class="icon">
+              <img src="assets/images/service-02.png" alt="short courses">
+            </div>
+            <div class="main-content">
+              <h4>texto texto</h4>
+              <p>texto textotexto textotexto textotexto textotexto textotexto textotexto</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="service-item">
+            <div class="icon">
+              <img src="assets/images/service-03.png" alt="web experts">
+            </div>
+            <div class="main-content">
+              <h4>texto texto</h4>
+              <p>texto textotexto textotexto textotexto textotexto textotexto textotexto textotexto texto</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section about-us">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 offset-lg-1">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Consejo 1: Interés
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  No es imprescindible que el profesor sea un apasionado de los videojuegos, pero si deben <strong>interesarle</strong>.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Consejo 2: Una metodología más
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Los videojuegos no deben cargar con el peso de la educación, son <strong>una metodología más</strong>.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Consejo 3: Plan de desarrollo
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Antes de elegir un videojuego, deben estar claras las <strong>habilidades y competencias</strong> que se quieren desarrollar.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  Consejo 4: Nivel de los retos               
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  El alumno debe ir superando niveles para fomentar su motivación. Es importante <strong>no plantear retos imposibles</strong>.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFive">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFour">
+                  Consejo 5: Requisito mínimo              
+                </button>
+              </h2>
+              <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Los centros deben contar con la <strong>tecnología adecuada</strong> antes de introducir los videojuegos en el aula.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingSix">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseFour">
+                  Consejo 6: Precauciones               
+                </button>
+              </h2>
+              <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Los videojuegos <strong>enganchan y enseñan a dosificar su uso</strong>, que también forma parte de la educación en el aula.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 align-self-center">
+          <div class="section-heading">
+            <h6>Consejos</h6>
+            <h2>Consejos para introducir los juegos en el aula</h2>
+            <div class="main-button">
+              <a href="#">Volver</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="section courses" id="courses" >
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <div class="section-heading">
+            <h6>Vídeo</h6>
+            <h2>Aprender jugando videojuegos</h2>
+          </div>
+        </div>
+      </div>
+
+
+<video width="640" height="360" controls style="margin: 0 auto;">
+    <source src="hola.mp4" type="video/mp4">
+    Tu navegador no soporta el elemento de video.
+</video>
+
+    </div>
+  </section>
+
+  <div class="section fun-facts">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="wrapper">
+            <div class="row">
+              <div class="col-lg-3 col-md-6">
+                <div class="counter">
+                  <h2 class="timer count-title count-number" data-to="150" data-speed="1000"></h2>
+                   <p class="count-text ">datos xd</p>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="counter">
+                  <h2 class="timer count-title count-number" data-to="804" data-speed="1000"></h2>
+                  <p class="count-text ">datos xd</p>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="counter">
+                  <h2 class="timer count-title count-number" data-to="50" data-speed="1000"></h2>
+                  <p class="count-text ">datos xd</p>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                <div class="counter end">
+                  <h2 class="timer count-title count-number" data-to="15" data-speed="1000"></h2>
+                  <p class="count-text ">Países</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+ <div class="team section" id="team">
+    <div class="container">
+        <div class="row justify-content-center"> <!-- Cambiado a "justify-content-center" para centrar las columnas -->
+            <div class="col-lg-3 col-md-6">
+                <div class="team-member">
+                    <div class="main-content">
+                        <img src="assets/images/member-01.jpg" alt="">
+                        <span class="category">Alumno</span>
+                        <h4>Izan Muñoz</h4>
+                        <ul class="social-icons">
+                            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="team-member">
+                    <div class="main-content">
+                        <img src="assets/images/member-02.jpg" alt="">
+                        <span class="category">Alumno</span>
+                        <h4>Asur Álvarez</h4>
+                        <ul class="social-icons">
+                            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Las dos siguientes personas han sido eliminadas -->
+
+            <!-- Puedes agregar nuevas personas aquí según sea necesario -->
+
+        </div>
+    </div>
+</div>
+
+
+  <div class="section testimonials">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-7">
+          <div class="owl-carousel owl-testimonials">
+            <div class="item">
+              <p>Los videojuegos intrigan y mantienen a los jugadores motivados</p>
+              <div class="author">
+                <img src="assets/images/testimonial-author.jpg" alt="">
+                <span class="category">Ventaja 1</span>
+                <h4>Motivación inquebrantable:</h4>
+              </div>
+            </div>
+            <div class="item">
+              <p>Los jugadores toman decisiones, resuelven problemas, y experimentan las consecuencias de sus elecciones.</p>
+              <div class="author">
+                <img src="assets/images/testimonial-author.jpg" alt="">
+                <span class="category">Ventaja 2</span>
+                <h4>Aprendizaje activo:</h4>
+              </div>
+            </div>
+            <div class="item">
+              <p>Los videojuegos fomentan la colaboración de sus elecciones.</p>
+              <div class="author">
+                <img src="assets/images/testimonial-author.jpg" alt="">
+                <span class="category">Ventaja 3</span>
+                <h4>Colaboración y compentencia</h4>
+              </div>
+            </div>
+            <div class="item">
+              <p>Los videojuegos pueden personalizarase para adaptarse al nivel de cada estudiante</p>
+              <div class="author">
+                <img src="assets/images/testimonial-author.jpg" alt="">
+                <span class="category">Ventaja 4</span>
+                <h4>Adaptabilidad</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 align-self-center">
+          <div class="section-heading">
+            <h6>VENTAJAS</h6>
+            <h2>VENTAJAS DEL APRENDIZAJE CON VIDEOJUEGOS</h2>
+            <p>Estos son algunos ejemplos de las ventajas del aprendizaje con videojuegos</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section events" id="events">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <div class="section-heading">
+            <h6>Juegos</h6>
+            <h2>Algunos títulos de videojuegos educativos:</h2>
+          </div>
+        </div>
+
+
+  <footer>
+    <div class="container">
+      <div class="col-lg-12">
+        <p>© Aprender con videojuegos 2023 &nbsp;&nbsp;&nbsp; Design: <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0" rel="nofollow" target="_blank">Zanisec</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/js/isotope.min.js"></script>
+  <script src="assets/js/owl-carousel.js"></script>
+  <script src="assets/js/counter.js"></script>
+  <script src="assets/js/custom.js"></script>
+
+  </body>
+</html>
